@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <v-app-bar app color="transparent" flat fixed>
+    <v-app-bar app light  fixed elevate-on-scroll>
       <div class="d-flex align-center">
         <v-btn text @click.native.stop="$vuetify.goTo('*', options)">
           <v-img

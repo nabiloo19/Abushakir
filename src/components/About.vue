@@ -11,8 +11,9 @@
             <v-col v-for="card in cards" :key="card.title" :cols="card.flex">
               <v-card class="pa-12" :elevation="hover ? 12 : 0" :class="{ 'on-hover': hover }">
                 <v-img
+                  transition="scale-transition"
                   :src="card.src"
-                  class="white--text align-end"
+                  class="white--text align-end shrink"
                   gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
                   height="200px"
                 >

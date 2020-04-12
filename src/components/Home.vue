@@ -1,7 +1,7 @@
 <template>
   <v-container class="text-center">
-
-    <About />
+    <Intro />
+    <About class="mt-12"/>
     <Competition />
     <Docs />
     <Contribute />
@@ -12,6 +12,7 @@
 <script>
 
 import About from "./About";
+import Intro from "./Intro";
 import Contribute from "./Contribute";
 import Competition from "./Competition";
 import Docs from "./Docs";
@@ -25,7 +26,8 @@ export default {
     About,
     Contribute,
     Competition,
-    Docs
+    Docs,
+    Intro
   }
 };
 </script>

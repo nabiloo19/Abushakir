@@ -1,5 +1,5 @@
 <template>
-  <v-container class="text-center" id="about">
+  <v-container class="text-center"  id="about">
     About
   </v-container>
 </template>

@@ -1,7 +1,7 @@
 <template>
   <v-container class="text-center">
     <Intro />
-    <About class="mt-12"/>
+    <About style="margin-top:120px"/>
     <Competition />
     <Docs />
     <Contribute />

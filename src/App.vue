@@ -1,6 +1,6 @@
 <template>
   <v-app>
-<Toolbar/>
+<Toolbar fixed/>
     <v-content>
       <Home/>
     </v-content>

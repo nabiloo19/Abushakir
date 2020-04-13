@@ -5,6 +5,7 @@
     <Competition />
     <Docs />
     <Contribute />
+    <Footer />
 
   </v-container>
 </template>
@@ -16,6 +17,7 @@ import Intro from "./Intro";
 import Contribute from "./Contribute";
 import Competition from "./Competition";
 import Docs from "./Docs";
+import Footer from "./Footer";
 
 export default {
   name: "Home",
@@ -27,7 +29,8 @@ export default {
     Contribute,
     Competition,
     Docs,
-    Intro
+    Intro,
+    Footer
   }
 };
 </script>

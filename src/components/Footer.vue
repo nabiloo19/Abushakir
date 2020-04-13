@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-container class="hidden-sm-and-down">
     <v-divider></v-divider>
     <v-row align="left" justify="left">
       <v-col lg="2">

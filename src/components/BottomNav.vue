@@ -1,12 +1,12 @@
 <template>
-  <v-container>
-    <v-bottom-navigation class="hidden-md-and-up" color="purple lighten-1">
-      <v-btn text @click.native.stop="$vuetify.goTo('#about', options)">About</v-btn>
-      <v-btn text @click.native.stop="$vuetify.goTo('#competition', options)">Competition</v-btn>
-      <v-btn text @click.native.stop="$vuetify.goTo('#docs', options)">Docs</v-btn>
-      <v-btn text @click.native.stop="$vuetify.goTo('#contribute', options)">Contribute</v-btn>
+  
+    <v-bottom-navigation fluid class="hidden-md-and-up" dark fixed >
+      <v-btn text @click.native.stop="$vuetify.goTo('#about', options)">About<v-icon>mdi-code-tags</v-icon></v-btn>
+      <v-btn text @click.native.stop="$vuetify.goTo('#competition', options)">Competition <v-icon>mdi-code-tags</v-icon></v-btn>
+      <v-btn text @click.native.stop="$vuetify.goTo('#docs', options)">Docs <v-icon>mdi-code-tags</v-icon></v-btn>
+      <v-btn text @click.native.stop="$vuetify.goTo('#contribute', options)">Contribute <v-icon>mdi-code-tags</v-icon></v-btn>
     </v-bottom-navigation>
-  </v-container>
+  
 </template>
 
 <script>

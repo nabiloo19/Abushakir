@@ -1,5 +1,5 @@
 <template>
-  <v-container class="text-center">
+  <v-container >
     <Intro />
     <About style="margin-top:120px"/>
     <Competition />

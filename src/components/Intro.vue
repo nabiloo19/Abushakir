@@ -1,6 +1,19 @@
 <template>
-  <v-container class="text-center d-flex flex-row-reverse mb-6" id="intro">
-    <v-flex class="pr-5">
+<v-container class="d-flex flex-row-reverse mb-6" id="intro">
+<v-row >
+
+<v-col class="d-flex flex-col-reverse">
+    <v-img
+      alt="About"
+      class="shrink mr-10"
+      contain
+      width="300px"
+      src="./../assets/aboutApp.svg"
+      transition="fab-transition"
+    />
+    </v-col>
+  <v-col>
+    
       <p class="font-weight-bold" style="font-size:150px;">
         Abush<span class="font-weight-light" style="font-size:150px;">akir</span>
       </p>
@@ -16,18 +29,13 @@
         dark
         @click.native.stop="$vuetify.goTo('#about', options)"
       >About</v-btn>
-    </v-flex>
+    
+</v-col>
+    
 
-    <!-- <v-flex > -->
-    <v-img
-      alt="About"
-      class="shrink mr-10"
-      contain
-      width="300px"
-      src="./../assets/aboutApp.svg"
-      transition="scale-transition"
-    />
-    <!-- </v-flex> -->
+
+
+    </v-row>    
   </v-container>
 </template>
 

@@ -8,7 +8,7 @@
             class="shrink mr-2"
             contain
             src="./../assets/logo.png"
-            transition="scale-transition"
+            transition="fab-transition"
             width="40"
           />Abushakir
         </v-btn>
